@@ -62,11 +62,15 @@
 
 #clear {
     border-top-left-radius: 10px;
-    background-color: rgba(230, 141, 141, 0.493);
+    background-color: rgb(230, 141, 141);
 }
 
 #clear:hover {
-    background-color: rgba(230, 141, 141, 0.493);
+    background-color: rgb(226, 116, 116);
+}
+
+#clear:active {
+    background-color: rgb(218, 99, 99);    
 }
 
 #zero {
@@ -77,6 +81,14 @@
     border-bottom-right-radius: 10px;
     background-color: rgb(113, 219, 127);
     grid-column: 3/-1;
+}
+
+#equals:hover {
+    background-color: rgb(86, 209, 102);    
+}
+
+#equals:active {
+    background-color: rgb(68, 192, 85);        
 }
 
 #dec-places-label {
