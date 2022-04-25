@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="display" id="top-screen"></div>
+        <div class="display" id="bottom-screen"></div>
+        <div class="decimal-places">
+            <label for="decimal-places" id="dec-places-label">Decimal Places: </label>
+            <input type="number" value="2" min="1" max="10" id="decimal-places" name="decimal-places">
+        </div>
+        <div class="buttons">
+            <button class="button" id="clear">C</button>
+            <button class="button" id="plus-minus">+/-</button>
+            <button class="button" id="backspace">&#60</button>
+            <button class="button operator" id="multiply">x</button>
+            <button class="button number">1</button>
+            <button class="button number">2</button>
+            <button class="button number">3</button>
+            <button class="button operator">/</button>
+            <button class="button number">4</button>
+            <button class="button number">5</button>
+            <button class="button number">6</button>
+            <button class="button operator">+</button>
+            <button class="button number">7</button>
+            <button class="button number">8</button>
+            <button class="button number">9</button>
+            <button class="button operator" id="minus">-</button>
+            <button class="button number" id="zero">0</button>
+            <button class="button" id="decimal">.</button>
+            <button class="button" id="equals">=</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
