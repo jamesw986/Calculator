@@ -49,11 +49,11 @@
 }
 
 .button:hover {
-    background-color: rgba(235, 235, 235, 0.938);
+    background-color: rgba(235, 235, 235, 0.43);
 }
 
 .button:active {
-    background-color: rgba(235, 235, 235, 0.233);
+    background-color: rgba(173, 173, 173, 0.008);
 }
 
 .decimal-places {
